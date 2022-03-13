@@ -28,6 +28,12 @@ body {
     padding-bottom: 4em;
 }
 
+.hero-bg-1 h5{
+    padding-top: 3em;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
 
 header {
     padding: 1em 0;
@@ -101,6 +107,12 @@ nav {
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2rem;
+}
+
+.section.top-1 {
+    width: 45% !important;
+    margin: 0 8%;
+    align-items: center;
 }
 
 section {
@@ -251,6 +263,14 @@ p {
         width: 15%;
         margin: 0 8%;
     }
+
+    .hero-bg-1 section.top-1 {
+        width: 45% !important;
+        align-items: center;
+        margin: 0 8%;
+    }
+
+    
     .form-container {
         margin: 2em -4em 0;
     }
@@ -261,6 +281,13 @@ p {
     body{
         overflow-x: hidden;
     }
+
+    .hero-bg-1 section.top-1 {
+        width: 45% !important;
+        align-items: center;
+        margin: 0 8%;
+    }
+
     .nav-links{
         position: absolute;
         right: 0px;
@@ -309,6 +336,12 @@ p {
 
     .hero-bg-1 section {
         width: 15%;
+        margin: 0 8%;
+    }
+
+    .hero-bg-1 section.top-1 {
+        width: 45% !important;
+        align-items: center;
         margin: 0 8%;
     }
 
@@ -378,12 +411,22 @@ p {
         width: 15%;
         margin: 0 8%;
     }
+
+    .hero-bg-1 section.top-1 {
+        padding-left: 10em;
+        width: 45% !important;
+        align-items: center;
+        margin: 0 8%;
+    }
 }
 
 .top {
     animation: fadeIn 2s forwards;
 }
 
+.top-1 {
+    animation: fadeIn 2s forwards;
+}
 @keyframes fadeIn {
     from {
         opacity: 0;
