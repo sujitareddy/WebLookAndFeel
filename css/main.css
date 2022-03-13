@@ -297,6 +297,9 @@ body{
 
 .table a{
     color: #707070;
+    font-weight:normal;
+    font-size: 1rem;
+    text-decoration: underline;
 }
 
 table.table td a.add {
