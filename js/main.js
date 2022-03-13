@@ -1,18 +1,20 @@
-// const searchingBook = () =>{
-//     let btn = document.getElementById('cta-btn');
-//     let overlay = document.getElementById('overlay');
+const searchingBook = () =>{
+    let btn = document.getElementById('cta-btn');
+    let overlay = document.getElementById('overlay');
 
-//     btn.addEventListener('click', () => {
-//         overlay.style.display = 'grid';
-//         overlay.classList.add('animate-overlay')
-//     })
+    btn.addEventListener('click', () => {
+        overlay.style.display = 'grid';
+        overlay.classList.add('animate-overlay')
+    })
 
-//     delay(3000).then(() => {
-//         let overlay1 = document.getElementById('overlay');
-//         overlay1.style.display = "none";
-//     })
+    delay(3000).then(() => {
+        let overlay1 = document.getElementById('overlay');
+        overlay1.style.display = "none";
+    })
+
+    location.href = "../UltimateBook.html";
     
-// }
+}
 
 function navSlide() {
     let burger = document.getElementById('burger');

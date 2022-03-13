@@ -109,6 +109,7 @@ nav {
     font-size: 1.2rem;
 }
 
+
 .section.top-1 {
     width: 45% !important;
     margin: 0 8%;
@@ -208,6 +209,10 @@ input[type=button]:hover {
     margin: 0;
 }
 
+.authentic-1 {
+    margin: 2em;
+}
+
 .right-col {
     text-align: center;
     margin: 3em 1em;
@@ -252,6 +257,47 @@ p {
 .animate-overlay {
     animation: overlay 3s forwards;
 }
+
+/****************************************************************************************
+UtimateBook start
+*/
+
+body{
+    background-color: #edf1f5;
+    margin-top:20px;
+}
+.card {
+    margin-bottom: 30px;
+}
+.card {
+    margin: 2em;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: 0;
+    color: #3b3a3a;
+}
+.card .card-subtitle {
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #8898aa;
+}
+.table-product.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f3f8fa!important
+}
+.table-product td{
+    border-top: 0px solid #dee2e6 !important;
+    color: #728299!important;
+}
+/*
+UtimateBook end
+****************************************************************************************/
+
 
 @media (min-width: 730px) {
 
@@ -384,6 +430,14 @@ p {
             "bowl content";
     }
 
+    section.authentic-1 {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-areas:
+            "bowl content";
+        margin: 2em;
+    }
+
     .right-col {
         grid-area: content;
         padding: 0 10%;
@@ -417,6 +471,11 @@ p {
         width: 45% !important;
         align-items: center;
         margin: 0 8%;
+    }
+
+    img.authentic-1 {
+        grid-area: bowl;
+        margin: 2em;
     }
 }
 
