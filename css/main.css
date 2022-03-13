@@ -294,6 +294,20 @@ body{
     border-top: 0px solid #dee2e6 !important;
     color: #728299!important;
 }
+
+.table a{
+    color: #707070;
+}
+
+table.table td a.add {
+    color: #27C46B;
+}
+table.table td a.edit {
+    color: #FFC107;
+}
+table.table td a.delete {
+    color: #E34724;
+}
 /*
 UtimateBook end
 ****************************************************************************************/
